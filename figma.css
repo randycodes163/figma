@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+
+.headerCover{
+        display:block;
+        background-image: url('images/hero-background.png');
+        background-size: cover;        /* Ensures the image covers the entire header */
+        background-repeat: no-repeat; 
+        height: 60vh;              
+        color: white; 
+        background-size: 100% auto;        
+                
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section-products {
+  margin: 70px;
+}
+.navigation-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.navigation-links ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 42px;
+}
+
+
+ img.main-logo {
+    width: 61px;
+    padding-right: 100px;
+    padding-left: 12px;
+  }
+
+  i{
+    font-size: 36px;
+  
+  }
+  .navigation-links div.links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    column-gap: 15px;
+    padding-top: 30px;
+  }
+  
+  .navigation-links div.links >li {
+    font-size: 15px;
+    font-weight: bold;
+  
+  }
+  
+  .navigation-links li a {
+    
+    text-decoration: none;
+    color:white;
+  }
+  
+  .navigation-links li a:hover {
+    color: #f0c491;
+  }
+  
+  .wrapper-header {
+    margin-top: 12vh;
+    padding-left: 60px;
+    p
+  }
+  .wrapper-header p {
+    color: #f0c491;
+    font-size: 25px;
+  }
+  .wrapper-header h1{
+    font-size: 60px;
+    font-family: "Sansita Swashed", serif;;
+    padding-bottom: 50px;
+  }
+
+  .shop, .learn {
+    margin-top: 50px;
+  }
+
+  .wrapper-header button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+  }
+  .shop {
+    color: white;
+    background-color: #c04000d8;
+    border-radius: 10px;
+  }
+  .learn {
+    color: #f0c491;
+    background-color: transparent;
+    border-radius: 10px;
+    border: none;
+  }
+  .wrapper-header button.learn{
+    padding-left: 15px;
+  }
+  .top-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 120px
+  }
+  .top-products h1{
+    font-size: 55px;
+    font-family: "Sansita Swashed", serif;;
+    padding-left: 40px;
+  }
+ .cards-container .container-products{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+ }
+
+ .cards-container .container-products div.card {
+  height: 350px;
+  width: 300px;
+  border: 2px solid rgba(0, 0, 0, 0.045);
+  border-radius: 2%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: url('images/top-products-background.png');
+ }
+
+ .cards-container .container-products div.card div.image > img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;  /* Ensures the image scales with the container */
+  height: 200px;
+}
+
+.cards-container .container-products div.card div.content p.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+
+}
+
+.cards-container .container-products div.card div.content p{
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  
+}
+.cards-container .container-products div.card div.content p > button {
+  display: flex;
+}
+
+.cards-container .container-products div.card div.content span.span-info i.fa-info-circle
+{
+  margin-right:15px;
+}
+.cards-container .container-products div.card div.content span.span-info { 
+float: right;
+}
+
+.cards-container .container-products div.card div.content p.title span.span-add {
+  float: right;
+}
+
+.cards-container .container-products div.card div.content button{
+  color: white;
+  background-color: #c04000d8;;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 8px;
+  }
+
+.section-about{
+  background-image: url('images/about-us-background.png');
+  background-repeat: no-repeat;
+  height: 40vh;
+  margin-top: 120px;
+}
+.section-about h1 {
+  font-size: 45px;
+  font-family: "Sansita Swashed", serif;;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+.section-about p{
+  font-size: 20px;
+  text-align: center;
+  color: #e5e4e2d5;
+}
+.section-treats h1 {
+  text-align: center;
+  font-size: 55px;
+  font-family: "Sansita Swashed", serif;;
+  padding-left: 40px;
+  padding-top: 100px;
+  padding-bottom: 120px
+}
+.container-treats{
+  display: flex;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+.container-treats p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+
